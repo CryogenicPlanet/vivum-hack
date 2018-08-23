@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: Calibri, Helvetica;}
+
+/* responsive stuff */
+@media screen and (max-width: 300px) 
+{
+    span.password 
+    {
+       display: block;
+       float: none;
+    }
+
+}
+
+/* objs */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+      box-sizing: border-box;
+  
+}
+
+button {
+    background-color: #000000;
+    color: green;
+    padding: 12px 22px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    background-color: green;
+    color: white 
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<center><h3>Admin Login</h3></center>
+
+
+  <div class="container">
+  
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    
+    <input type="password" placeholder="Enter Password" name="password" required>
+        
+    <button type="login">Login</button>
+ 
+  </div>
+
+
+</form>
+
+</body>
+</html>
+
